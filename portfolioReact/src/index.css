@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@theme {
+    /* colores */
+    --color-random: #1a202c;
+    --color-random2: #2d3748;
+    --color-random3: #4a5568;
+
+    /* tipografía */
+    --font-primary1: 'Inter', sans-serif;
+    --font-primary2: 'Roboto', sans-serif;
+    --font-primary3: 'Open Sans', sans-serif;
+
+    /* breakpoints */
+    --breakpoint-xs400: 400px;
+}

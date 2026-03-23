@@ -2,8 +2,9 @@
 
 ## Proposito
 
-Este proyecto es un portfolio para un programador junior y tambien un entorno de aprendizaje.
-La prioridad es aprender JavaScript y React mientras se construye algo real y presentable.
+1. Este proyecto es un portfolio para un programador junior y tambien un entorno de aprendizaje.
+2. La prioridad es aprender JavaScript y React + tailwind mientras se construye algo real y presentable.
+3. Antes de generar/cambiar codigo la prioridad es intentar explicar y conseguir que yo mismo pueda programarlo para ir aprendiendo.
 
 ## Perfil de partida
 
@@ -16,7 +17,7 @@ La prioridad es aprender JavaScript y React mientras se construye algo real y pr
 
 Cuando propongas cambios, equilibra tres metas:
 
-1. Ensenar y explicar con pasos comprensibles para aprender React y JavaScript.
+1. Ensenar y explicar con pasos comprensibles para aprender React + tailwind y JavaScript.
 2. Utilizar buenas practicas modernas evitando codigo obsoleto.
 3. Entregar una mejora funcional en el portfolio.
 
@@ -37,6 +38,7 @@ Cuando propongas cambios, equilibra tres metas:
    - arrow functions
    - async/await
    - modulos ES (import/export)
+   - lambda
 
 2. Fundamentos de React:
    - componentes
@@ -50,7 +52,6 @@ Cuando propongas cambios, equilibra tres metas:
    - separar UI, logica y estilos con criterio.
 
 4. Buenas practicas basicas:
-   - nombres claros
    - componentes pequenos
    - evitar duplicar logica
    - usar codigo moderno y mantenible.
@@ -80,16 +81,6 @@ Antes de anadir una libreria:
 
 Evitar dependencias innecesarias.
 
-## Formato de respuesta esperado del agente
-
-Cuando el usuario pida una mejora:
-
-1. Resumir en 3-5 lineas que se va a hacer.
-2. Implementar el cambio.
-3. Explicar brevemente como funciona.
-4. Anadir una seccion "Aprendizaje".
-5. Proponer siguientes pasos pequenos para continuar el desarrollo.
-
 ## Validacion minima
 
 Despues de cambios de codigo, validar lo basico cuando aplique:
@@ -98,49 +89,10 @@ Despues de cambios de codigo, validar lo basico cuando aplique:
 - Ejecutar build o checks rapidos del proyecto.
 - Si algo falla, explicarlo de forma clara y proponer arreglo.
 
-## Seccion aprendizaje
-
-En la seccion aprendizaje:
-
-- Concepto de JavaScript o React utilizado.
-- Buenas practicas aplicadas.
-- Error comun que se ha evitado.
-
-## Alcance actual del portfolio
-
-El portfolio debe incluir, de forma progresiva:
-
-- Presentacion personal corta.
-- Stack tecnologico.
-- Proyectos destacados.
-- Contacto.
-
 ## Restricciones iniciales
 
-- Mantener el proyecto en React + JavaScript + Vite.
+- Mantener el proyecto en React + JavaScript + Vite + tailwind.
 - Evitar TypeScript por ahora para reforzar JavaScript.
 - Mantener un diseno limpio y responsive.
 - Evitar sobreingenieria.
 - Actualizar README.md solo cuando haya cambios relevantes en setup, estructura o funcionalidades.
-
-## Limites de complejidad
-
-Este proyecto es un portfolio personal.
-
-Evitar:
-
-- arquitecturas complejas
-- patrones enterprise
-- librerias pesadas para problemas simples
-
-Preferir soluciones claras, pequenas y faciles de entender.
-
-## Nota para futuras ampliaciones
-
-Este archivo es base inicial.
-Se puede ampliar con:
-
-- Convenciones de estilos.
-- Estructura de carpetas objetivo.
-- Criterios de accesibilidad.
-- Checklist de calidad antes de dar una tarea por cerrada.

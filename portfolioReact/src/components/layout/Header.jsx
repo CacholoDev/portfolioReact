@@ -10,7 +10,7 @@ export const Header = () => {
   return (
     <header className="sticky top-0 z-20 border-b border-slate-800/80 bg-slate-950/95 backdrop-blur">
       <div className="mx-auto flex w-full max-w-5xl items-center justify-between px-6 py-4 sm:px-8">
-        <a href="#inicio" className="text-sm font-semibold tracking-wide text-amber-400 transition hover:text-amber-300">
+        <a href="#inicio" className="text-sm font-semibold tracking-wide text-amber-400 transition hover:text-amber-300 animate-pulse">
           Adrián Fábregas - Full Stack Dev
         </a>
 

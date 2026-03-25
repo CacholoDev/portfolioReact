@@ -1,5 +1,5 @@
-@import "tailwindcss";
-@plugin "../@midudev/tailwind-animations";
+@import 'tailwindcss';
+@import 'tailwind-animations';
 
 @theme {
     /* colores */

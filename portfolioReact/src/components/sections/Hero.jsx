@@ -29,7 +29,7 @@ export const Hero = () => {
             className="rounded-full p-2 bg-gray-400 transition-transform hover:scale-110 hover:bg-gray-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
           >
             <svg width="28" height="28">
-              <use href={`${sprite}#github`} />
+              <use href={`${sprite}#Git`} />
             </svg>
           </a>
           <a
@@ -70,7 +70,7 @@ export const Hero = () => {
 
       <div className="mx-auto sm:col-start-3 sm:row-span-1 sm:self-center">
         <img
-          className="h-48 rounded-full border-4 border-slate-800 object-cover sm:h-56 animate-"
+          className="h-48 rounded-full border-4 border-slate-800 object-cover sm:h-56 animate-zoom-in"
           src={foto}
           alt="Adrián Fábregas"
         />

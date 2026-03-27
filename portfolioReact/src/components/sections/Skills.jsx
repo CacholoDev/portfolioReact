@@ -26,12 +26,12 @@ export const Skills = () => {
 
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {Object.entries(skillGroups).map(([group, items]) => (
-          <article key={group} className="rounded-xl border border-slate-800 bg-slate-900/40 p-4">
-            <h3 className="mb-3 text-sm font-semibold uppercase tracking-wide text-cyan-300">{group}</h3>
-            <ul className="space-y-2 text-slate-300">
+          <article key={group} className="group rounded-xl border border-slate-800 bg-slate-900/40 p-4 hover:transition hover:border-cyan-300/50 hover:shadow-lg hover:shadow-cyan-300/20">
+            <h3 className="group-hover:font-bold mb-3 text-sm font-semibold uppercase tracking-wide text-cyan-300">{group}</h3>
+            <ul className="group-hover:font-bold space-y-2 text-slate-300">
               {items.map((item) => (
                 <li key={item} className="flex items-center gap-2 text-sm leading-none">
-                  <svg width="18" height="18" className="shrink-0 text-cyan-300">
+                  <svg width="18" height="18" className="group-hover:w-6 group-hover:h-6 shrink-0 text-cyan-300">
                     <use href={`${sprite}#${item}`} />
                   </svg>
                   <span className="leading-tight">{item}</span>
@@ -40,7 +40,7 @@ export const Skills = () => {
             </ul>
           </article>
         ))}
-        <section className="relative h-48 overflow-hidden rounded-xl border border-slate-800 bg-slate-900/40 group cursor-pointer transition-all duration-300 hover:border-cyan-300/50 hover:shadow-lg hover:shadow-cyan-300/20">
+        <section className="relative h-48 overflow-hidden rounded-xl border border-slate-800 bg-slate-900/40 group cursor-crosshair transition-all duration-300 hover:border-cyan-300/50 hover:shadow-lg hover:shadow-cyan-300/20">
           <img 
             src={img} 
             alt="Yo 24/7" 

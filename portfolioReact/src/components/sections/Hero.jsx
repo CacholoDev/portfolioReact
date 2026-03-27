@@ -70,7 +70,7 @@ export const Hero = () => {
 
       <div className="mx-auto sm:col-start-3 sm:row-span-1 sm:self-center">
         <img
-          className="h-48 rounded-full border-4 border-slate-800 object-cover sm:h-56 animate-zoom-in"
+          className="h-48 rounded-full border-4 border-slate-800 object-cover sm:h-56 animate-zoom-in hover:mask-radial-at-center hover:mask-radial-from-50% hover:mask-radial-to-70% hover:cursor-pointer transition-transform hover:scale-105"
           src={foto}
           alt="Adrián Fábregas"
         />

@@ -11,7 +11,7 @@ const educationItems = [
         subtitle: "Cursos",
         place: "Aspasia / ClústerTic / ClústerTic",
         period: "2025",
-        highlights: ["Desarrollo de Aplicaciones con Tecnologías Web (IFCD0210) (6 meses + prácticas 12d)", "Spring Boot 3.x (60h)", "React (60h)"],
+        highlights: ["Desarrollo de Aplicaciones con Tecnologías Web (IFCD0210) (6 meses + prácticas 14d)", "Spring Boot (60h)", "React (60h)"],
     },
 ]
 

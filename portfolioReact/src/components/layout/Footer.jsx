@@ -6,7 +6,12 @@ export const Footer = () => {
         <i className="fa-solid fa-location-dot"></i>
         <p>Santiago de Compostela</p>
         </div>
-        <p>Built with React + JS + Tailwind + Vite</p>
+        <div className="flex gap-1 items-center">
+        <i className="fa-solid fa-envelope"></i>
+        <p>adriannoia104@gmail.com</p>
+        </div>
+        
+        
       </div>
     </footer>
   )

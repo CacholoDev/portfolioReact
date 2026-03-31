@@ -14,7 +14,7 @@ export const Exp = () => {
                 <p className="text-xs uppercase tracking-[0.2em] text-cyan-300/80">Professional Journey</p>
             </div>
 
-                <div className="grid gap-4 lg:grid-cols-2">
+                <div className="grid gap-4">
                     <article className="group relative min-h-40 overflow-hidden rounded-2xl border border-slate-800 bg-slate-900/40 p-5 transition-all duration-300 hover:-translate-y-1 hover:border-cyan-300/60 hover:shadow-lg hover:shadow-cyan-400/15">
                         <div className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                             <div className="absolute -right-14 -top-14 h-36 w-36 rounded-full bg-cyan-400/10 blur-2xl" />
@@ -44,7 +44,7 @@ export const Exp = () => {
                                         </span>
                                     ))}
                                 </div>
-                                <p className="mt-3 text-sm text-slate-400">Collaborated with cross-functional teams to deliver high-quality software solutions.</p>
+                                <p className="mt-3 text-sm text-slate-400">Migré varias APIs REST de SpringBoot 2.6 a SpringBoot 4 (JPA, Hibernate, Lombok, JWT, Spring Security, Bcrypt, Test con JUnit + Mockito...)</p>
                             </div>
                         </div>
                     </article>

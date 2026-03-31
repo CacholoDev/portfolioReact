@@ -24,7 +24,7 @@ export const Skills = () => {
       <style>{styles}</style>
       <h2 className="text-2xl font-semibold text-white">Skills</h2>
 
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {Object.entries(skillGroups).map(([group, items]) => (
           <article key={group} className="group rounded-xl border border-slate-800 bg-slate-900/40 p-4 hover:transition hover:border-cyan-300/50 hover:shadow-lg hover:shadow-cyan-300/20">
             <h3 className="group-hover:font-bold mb-3 text-sm font-semibold uppercase tracking-wide text-cyan-300">{group}</h3>

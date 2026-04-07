@@ -4,6 +4,7 @@ const projectList = [
     description:
       "Aplicacion web para gestionar pedidos de una panaderia. Incluye backend con Spring Boot, persistencia MySQL y despliegue con Docker.",
     stack: ["Spring Boot", "Java", "MySQL", "Docker", "Git", "JavaScript", "Bootstrap"],
+    springBoot: true,
     type: "Full Stack",
     status: "En mejora continua",
     href: "https://github.com/CacholoDev/PFC",
@@ -13,6 +14,7 @@ const projectList = [
     description:
       "Este portfolio en React para mostrar perfil, formacion, skills y proyectos con enfoque moderno, responsive y visual.",
     stack: ["React", "JavaScript", "Tailwind CSS", "Vite", "Git"],
+    springBoot: false,
     type: "Frontend",
     status: "Completado",
     href: "https://github.com/CacholoDev/portfolioReact/tree/main/portfolioReact",
@@ -22,11 +24,16 @@ const projectList = [
     description:
       "Servidor NAS montado en casa con servicios ARR orquestados en Docker para automatizar multimedia.",
     stack: ["Docker", "Linux", "ARR", "Redes", "Automatizacion"],
+    springBoot: false,
     type: "Infraestructura",
     status: "Activo",
     href: null,
   },
 ]
+
+const springBoo = {
+  skill: ["JWT", "Spring Security", "JPA", "Hibernate", "Bcrypt", "Rate Limiting", "Spring Web", "Test: JUnit, Mockito", "Spring Actuator", "Spring Validation", "Lombok", "Spring Data"],
+}
 
 export const Projects = () => {
   return (
@@ -68,6 +75,22 @@ export const Projects = () => {
                 </li>
               ))}
             </ul>
+
+            {project.springBoot && (
+              <div className="relative z-10 space-y-2">
+                <p className="text-xs font-semibold uppercase tracking-wide text-cyan-300/90 group-hover:animate-dancing">Spring Boot focus</p>
+                <ul className="flex flex-wrap gap-2">
+                  {springBoo.skill.map((tech2) => (
+                    <li
+                      key={`${project.title}-${tech2}`}
+                      className="rounded-md border border-cyan-500/30 bg-cyan-500/10 px-2 py-1 text-xs text-cyan-100"
+                    >
+                      {tech2}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
 
             {project.href ? (
               <a

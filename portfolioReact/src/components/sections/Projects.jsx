@@ -1,9 +1,9 @@
 const projectList = [
   {
-    title: "PFC - App web de pedidos para panaderia",
+    title: "PFC - App web de pedidos Full Stack",
     description:
-      "Aplicacion web para gestionar pedidos de una panaderia. Incluye backend con Spring Boot, persistencia MySQL y despliegue con Docker.",
-    stack: ["Spring Boot", "Java", "MySQL", "Docker", "Git", "JavaScript", "Bootstrap"],
+      "Aplicacion web para gestionar pedidos de pequeños negocios. Backend con Spring Boot, frontend JS, persistencia MySQL y despliegue con Docker.",
+    stack: ["Spring Boot", "Java", "MySQL", "Docker", "Git", "JavaScript", "Bootstrap", "Postman","DBeaver"],
     springBoot: true,
     type: "Full Stack",
     status: "En mejora continua",
@@ -20,10 +20,10 @@ const projectList = [
     href: "https://github.com/CacholoDev/portfolioReact/tree/main/portfolioReact",
   },
   {
-    title: "NAS casero con stack ARR",
+    title: "Nube/Cloud personal",
     description:
-      "Servidor NAS montado en casa con servicios ARR orquestados en Docker para automatizar multimedia.",
-    stack: ["Docker", "Linux", "ARR", "Redes", "Automatizacion"],
+      "Servidor NAS casero con servicios ARR montados con Docker para automatizar multimedia. Guardar archivos y videos...",
+    stack: ["Docker", "Linux", "ARR", "Redes","Automatizacion", "DevOps"],
     springBoot: false,
     type: "Infraestructura",
     status: "Activo",
@@ -104,7 +104,7 @@ export const Projects = () => {
               </a>
             ) : (
               <span className="relative z-10 mt-1 inline-flex w-fit items-center text-sm font-semibold text-slate-500">
-                Repositorio privado/local
+                Repositorio privado
               </span>
             )}
           </article>

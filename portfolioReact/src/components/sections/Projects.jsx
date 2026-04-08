@@ -43,11 +43,11 @@ export const Projects = () => {
         <p className="text-xs uppercase tracking-[0.2em] text-cyan-300/80">Build log</p>
       </div>
 
-      <div className="grid gap-4 lg:grid-cols-3">
-        {projectList.map((project) => (
+      <div className="grid gap-4 lg:grid-cols-2">
+        {projectList.map((project, index) => (
           <article
             key={project.title}
-            className="group relative flex h-full flex-col gap-4 overflow-hidden rounded-2xl border border-slate-800 bg-slate-900/40 p-5 transition-all duration-300 hover:-translate-y-1 hover:border-cyan-300/60 hover:shadow-xl hover:shadow-cyan-400/10"
+            className={`group relative flex h-full flex-col gap-4 overflow-hidden rounded-2xl border border-slate-800 bg-slate-900/40 p-5 transition-all duration-300 hover:-translate-y-1 hover:border-cyan-300/60 hover:shadow-xl hover:shadow-cyan-400/10 ${index === 0 ? "lg:col-span-2" : "lg:col-span-1"}`}
           >
             <div className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
               <div className="absolute -right-16 -top-12 h-36 w-36 rounded-full bg-cyan-300/10 blur-3xl" />

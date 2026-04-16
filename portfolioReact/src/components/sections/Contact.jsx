@@ -16,7 +16,7 @@ export const Contact = () => {
         <a href={gmailComposeUrl} target="_blank" rel="noreferrer" className="rounded-lg border border-cyan-300 px-5 py-2 text-sm font-semibold text-cyan-300 transition hover:bg-cyan-300/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950">
           Abrir Gmail
         </a>
-        <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" className="rounded-lg border border-slate-600 px-5 py-2 text-sm font-semibold text-slate-200 transition hover:border-cyan-300 hover:text-cyan-300">
+        <a href="https://www.linkedin.com/in/adrianfabregas/" target="_blank" rel="noreferrer" className="rounded-lg border border-slate-600 px-5 py-2 text-sm font-semibold text-slate-200 transition hover:border-cyan-300 hover:text-cyan-300">
           LinkedIn
         </a>
       </div>

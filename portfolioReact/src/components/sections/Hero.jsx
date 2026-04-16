@@ -33,7 +33,7 @@ export const Hero = () => {
             </svg>
           </a>
           <a
-            href="https://www.linkedin.com/in/adri%C3%A1n-f%C3%A1bregas/"
+            href="https://www.linkedin.com/in/adrianfabregas/"
             target="_blank"
             rel="noreferrer"
             title="Ir a LinkedIn de AdriánFábregas"

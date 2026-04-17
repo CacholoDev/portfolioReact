@@ -44,7 +44,8 @@ export const Exp = () => {
                                         </span>
                                     ))}
                                 </div>
-                                <p className="mt-3 text-sm text-slate-400">Migré varias APIs REST de SpringBoot 2.6 a SpringBoot 4 (JPA, Hibernate, Lombok, JWT, Spring Security, Bcrypt, Test con JUnit + Mockito...)</p>
+                                <p className="mt-3 text-sm text-slate-400">Migración de APIs REST con Java de SpringBoot 2.6 a SpringBoot 3.5.x (JPA, Hibernate, Lombok, JWT, Spring Security, Bcrypt, Test con JUnit + Mockito, Bcrypt)</p>
+                                <p className="mt-3 text-sm text-slate-400">- Aplicación con Python, Pandas y JavaScript para PDA donde se lee un código de barras de cualquier artículo y se muestra por pantalla de PDA la información detallada.</p>
                             </div>
                         </div>
                     </article>
